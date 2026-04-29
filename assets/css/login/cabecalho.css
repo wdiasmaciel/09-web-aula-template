@@ -2,12 +2,9 @@ header {
   /* border: .1rem red solid; */
   height: 4rem;
   display: flex;
-  /*justify-content: center;*/
   align-items: center;
   align-content: center;
   padding: 0.5rem;
-  /* background-color: #252323;
-  color: #eee; */
 }
 
 .logo {
@@ -24,6 +21,7 @@ header {
   align-items: center;
   align-content: center;
   margin-right: 0.7rem;
+  box-sizing: content-box;
 }
 
 .titulo {

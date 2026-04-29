@@ -1,4 +1,4 @@
-const email = "admin@exemplo.com";
+const email = "admin@email.com";
 const senha = "1234";
 
 function verificarCredenciais() {
