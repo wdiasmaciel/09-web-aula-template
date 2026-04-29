@@ -33,7 +33,7 @@ form {
   left: 0.75rem;
   color: #999;
   font-size: 1rem;
-  pointer-events: none; /*Torna o ícone puramente visual, sem interferir na usabilidade do input.*/ 
+  pointer-events: none; /*Torna o ícone puramente visual, sem interferir na usabilidade do input.*/
 }
 
 .input-grupo input {
@@ -66,6 +66,7 @@ button {
   border-radius: 0.5rem;
   background-color: #0052cc;
   color: #eee;
+  font-weight: bold;
   cursor: pointer;
   border: none;
   display: flex;
