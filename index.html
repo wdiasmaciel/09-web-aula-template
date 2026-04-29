@@ -4,15 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu Site de Notícias</title>
+    <link rel="stylesheet" href="./assets/css/login/estilo.css"/>
     <script src="./assets/js/login.js"></script>
   </head>
   <body>
+    <header>
+      <div class="logo">W</div>
+      <h1 class="titulo">Meu Site de Notícias</h1>
+    </header>
     <div class="container">
       <h1>Login</h1>
       <form>
         <input id="email" type="text" placeholder="informe seu e-mail" />
         <input id="senha" type="password" placeholder="informe sua senha" />
-        <button onclick="verificarCredenciais(); return false;">
+        <button
+          onclick="
+            verificarCredenciais();
+            return false;
+          "
+        >
           Entrar
         </button>
       </form>
